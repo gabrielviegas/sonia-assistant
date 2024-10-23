@@ -116,7 +116,7 @@ def main():
 
         if command:
             if "parar" in command:
-                speak("Estarei sempre a disposição Dr supremo Gabriel Viegas, até mais!")
+                speak("Estarei sempre a disposição Gabriel Viegas, até mais!")
                 break
 
             elif "quem é você" in command:
