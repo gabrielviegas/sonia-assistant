@@ -1,57 +1,43 @@
-Sonia - Virtual Assistant in Python
+# Sonia - Virtual Assistant in Python
 
-Overview
+## Overview
 This project implements a virtual assistant called Sonia, built in Python, which interacts through voice commands. Sonia can perform tasks like fetching the current time and date, conducting web searches, delivering news, telling jokes, and more.
 
-Conception
+## Conception
 The idea behind Sonia stems from the need to automate routine tasks and make interaction with technology more intuitive through voice commands. It enhances user experience by providing real-time information, system operations, and entertainment.
 
-Architecture
+## Architecture
 The architecture of the project consists of the following components:
+- **Speech Recognition:** Using Google Speech Recognition API to convert voice input into text.
+- **Text-to-Speech:** Converting text responses into audio output for user interaction.
+- **Web Scraping:** For retrieving news and real-time information such as currency exchange rates.
+- **System Management:** Gathering network information via ipconfig and saving the data to a CSV file.
 
-Speech Recognition: Using Google Speech Recognition API to convert voice input into text.
-Text-to-Speech: Converting text responses into audio output for user interaction.
-Web Scraping: For retrieving news and real-time information such as currency exchange rates.
-System Management: Gathering network information via ipconfig and saving the data to a CSV file.
+## Implementation
+### Tools and Technologies
+- **Programming Language:** Python
+- **Speech Recognition API:** Google Speech Recognition
+- **Web Scraping:** BeautifulSoup for retrieving news articles
+- **Currency Exchange Data:** AwesomeAPI for USD/BRL real-time rates
+- **CSV File Handling:** Python’s csv library for exporting system data
 
-Implementation
+### Features and Functions
+- **Voice Interaction:** Sonia listens to voice commands and processes user requests.
+  - **Get Current Time and Date:** Functions `get_time()` and `get_date()` return the current time and date, respectively.
+  - **News Retrieval:** Sonia scrapes the latest news from Google News and presents the top 5 headlines via `get_news()`.
+  - **Random Historical Fact:** The assistant provides a random historical fact using `get_random_historical_fact()`.
+  - **System Information Export:** Sonia retrieves network information using ipconfig and saves it into a CSV file with `get_ipconfig_info()` and `save_to_csv()`.
+  - **Currency Exchange Rate:** Sonia uses the `get_dollar_exchange_rate()` function to fetch real-time USD to BRL exchange rates via AwesomeAPI.
+  - **Tech Jokes:** The assistant keeps things fun with tech-related jokes.
 
-Tools and Technologies
+### Workflow
+- **Voice Command Processing:** Sonia listens to user input through the `listen()` function, capturing audio and converting it to text.
+- **Command Execution:** Based on the recognized text, Sonia executes the appropriate function (e.g., fetching news, providing the time).
+- **Voice Response:** Sonia converts the result back into speech using the `speak()` function, delivering the response to the user.
 
-Programming Language: Python
-Speech Recognition API: Google Speech Recognition
-Web Scraping: BeautifulSoup for retrieving news articles
-Currency Exchange Data: AwesomeAPI for USD/BRL real-time rates
-CSV File Handling: Python’s csv library for exporting system data
-
-Features and Functions
-
-Voice Interaction:
-Sonia listens to voice commands and processes user requests.
-Get Current Time and Date:
-Functions get_time() and get_date() return the current time and date, respectively.
-News Retrieval:
-Sonia scrapes the latest news from Google News and presents the top 5 headlines via get_news().
-Random Historical Fact:
-The assistant provides a random historical fact using get_random_historical_fact().
-System Information Export:
-Sonia retrieves network information using ipconfig and saves it into a CSV file with get_ipconfig_info() and save_to_csv().
-Currency Exchange Rate:
-Sonia uses the get_dollar_exchange_rate() function to fetch real-time USD to BRL exchange rates via AwesomeAPI.
-Tech Jokes:
-The assistant keeps things fun with tech-related jokes.
-
-Workflow
-Voice Command Processing:
-Sonia listens to user input through the listen() function, capturing audio and converting it to text.
-Command Execution:
-Based on the recognized text, Sonia executes the appropriate function (e.g., fetching news, providing the time).
-Voice Response:
-Sonia converts the result back into speech using the speak() function, delivering the response to the user.
-
-Required Tools
-Python 3.x
-Google Speech Recognition API
-BeautifulSoup for Web Scraping
-AwesomeAPI for Real-time Exchange Rates
-requests for making HTTP requests
+## Required Tools
+- Python 3.x
+- Google Speech Recognition API
+- BeautifulSoup for Web Scraping
+- AwesomeAPI for Real-time Exchange Rates
+- requests for making HTTP requests
