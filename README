@@ -7,13 +7,14 @@ This project implements a virtual assistant called Sonia, built in Python, which
 The idea behind Sonia stems from the need to automate routine tasks and make interaction with technology more intuitive through voice commands. It enhances user experience by providing real-time information, system operations, and entertainment.
 
 ## Architecture
-The architecture of the project consists of the following components:
+The architecture involves:
 - **Speech Recognition:** Using Google Speech Recognition API to convert voice input into text.
 - **Text-to-Speech:** Converting text responses into audio output for user interaction.
 - **Web Scraping:** For retrieving news and real-time information such as currency exchange rates.
 - **System Management:** Gathering network information via ipconfig and saving the data to a CSV file.
 
 ## Implementation
+
 ### Tools and Technologies
 - **Programming Language:** Python
 - **Speech Recognition API:** Google Speech Recognition
@@ -30,14 +31,16 @@ The architecture of the project consists of the following components:
   - **Currency Exchange Rate:** Sonia uses the `get_dollar_exchange_rate()` function to fetch real-time USD to BRL exchange rates via AwesomeAPI.
   - **Tech Jokes:** The assistant keeps things fun with tech-related jokes.
 
-### Workflow
-- **Voice Command Processing:** Sonia listens to user input through the `listen()` function, capturing audio and converting it to text.
-- **Command Execution:** Based on the recognized text, Sonia executes the appropriate function (e.g., fetching news, providing the time).
-- **Voice Response:** Sonia converts the result back into speech using the `speak()` function, delivering the response to the user.
+### Pipeline Workflow
+1. **Voice Command Processing:** Sonia listens to user input through the `listen()` function, capturing audio and converting it to text.
+2. **Command Execution:** Based on the recognized text, Sonia executes the appropriate function (e.g., fetching news, providing the time).
+3. **Voice Response:** Sonia converts the result back into speech using the `speak()` function, delivering the response to the user.
 
-## Required Tools
-- Python 3.x
-- Google Speech Recognition API
-- BeautifulSoup for Web Scraping
-- AwesomeAPI for Real-time Exchange Rates
-- requests for making HTTP requests
+## Future Enhancements
+Future plans include adding more interactive features, integrating additional APIs, and expanding the voice command capabilities.
+
+## Contributing
+Contributions are welcome! Feel free to fork this repository, submit issues, or propose enhancements through pull requests.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
