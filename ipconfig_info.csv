@@ -1,0 +1,135 @@
+""
+Configura��o de IP do Windows
+""
+   Nome do host. . . . . . . . . . . . . . . . : LOTHBROK
+   Sufixo DNS prim�rio . . . . . . . . . . . . : icarotech.com
+   Tipo de n�. . . . . . . . . . . . . . . . . : h�brido
+   Roteamento de IP ativado. . . . . . . . . . : n�o
+   Proxy WINS ativado. . . . . . . . . . . . . : n�o
+   Lista de pesquisa de sufixo DNS . . . . . . : 
+                                                 fatec.campinas.br
+""
+Adaptador Ethernet Ethernet 2:
+""
+   Estado da m�dia. . . . . . . . . . . . . .  : m�dia desconectada
+   Sufixo DNS espec�fico de conex�o. . . . . . : 
+   Descri��o . . . . . . . . . . . . . . . . . : Check Point Virtual Network Adapter For Endpoint VPN Client
+   Endere�o F�sico . . . . . . . . . . . . . . : 
+   DHCP Habilitado . . . . . . . . . . . . . . : Sim
+   Configura��o Autom�tica Habilitada. . . . . : Sim
+""
+Adaptador Ethernet Ethernet:
+""
+   Estado da m�dia. . . . . . . . . . . . . .  : m�dia desconectada
+   Sufixo DNS espec�fico de conex�o. . . . . . : 
+   Descri��o . . . . . . . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Endere�o F�sico . . . . . . . . . . . . . . : 
+   DHCP Habilitado . . . . . . . . . . . . . . : Sim
+   Configura��o Autom�tica Habilitada. . . . . : Sim
+""
+Adaptador Ethernet vEthernet (Default Switch (Ethernet 2)):
+""
+   Sufixo DNS espec�fico de conex�o. . . . . . : 
+   Descri��o . . . . . . . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter #2
+   Endere�o F�sico . . . . . . . . . . . . . . : 
+   DHCP Habilitado . . . . . . . . . . . . . . : N�o
+   Configura��o Autom�tica Habilitada. . . . . : Sim
+   Endere�o IPv6 de link local . . . . . . . . : (Preferencial) 
+   Endere�o IPv4. . . . . . . .  . . . . . . . : (Preferencial) 
+   M�scara de Sub-rede . . . . . . . . . . . .
+   Gateway Padr�o. . . . . . . . . . . . . . . : 
+   IAID de DHCPv6. . . . . . . . . . . . . . . : 
+   DUID de Cliente DHCPv6. . . . . . . . . . . : 
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado
+""
+Adaptador Ethernet vEthernet (Default Switch (Wi-Fi)):
+""
+   Sufixo DNS espec�fico de conex�o. . . . . . : 
+   Descri��o . . . . . . . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter #4
+   Endere�o F�sico . . . . . . . . . . . . . . : 
+   DHCP Habilitado . . . . . . . . . . . . . . : N�o
+   Configura��o Autom�tica Habilitada. . . . . : Sim
+   Endere�o IPv6 de link local . . . . . . . . : (Preferencial) 
+   Endere�o IPv4. . . . . . . .  . . . . . . . : Preferencial) 
+   M�scara de Sub-rede . . . . . . . . . . . . : 255.255.240.0
+   Gateway Padr�o. . . . . . . . . . . . . . . : 
+   IAID de DHCPv6. . . . . . . . . . . . . . . : 654316893
+   DUID de Cliente DHCPv6. . . . . . . . . . . : 
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado
+""
+Adaptador Ethernet Ethernet 3:
+""
+   Sufixo DNS espec�fico de conex�o. . . . . . : 
+   Descri��o . . . . . . . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter
+   Endere�o F�sico . . . . . . . . . . . . . . : 
+   DHCP Habilitado . . . . . . . . . . . . . . : N�o
+   Configura��o Autom�tica Habilitada. . . . . : Sim
+   Endere�o IPv4. . . . . . . .  . . . . . . . : (Preferencial) 
+   M�scara de Sub-rede . . . . . . . . . . . . : 
+   Gateway Padr�o. . . . . . . . . . . . . . . : 
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado
+""
+Adaptador de Rede sem Fio Conex�o Local* 1:
+""
+   Estado da m�dia. . . . . . . . . . . . . .  : m�dia desconectada
+   Sufixo DNS espec�fico de conex�o. . . . . . : 
+   Descri��o . . . . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Endere�o F�sico . . . . . . . . . . . . . . : 
+   DHCP Habilitado . . . . . . . . . . . . . . : Sim
+   Configura��o Autom�tica Habilitada. . . . . : Sim
+""
+Adaptador de Rede sem Fio Conex�o Local* 2:
+""
+   Estado da m�dia. . . . . . . . . . . . . .  : m�dia desconectada
+   Sufixo DNS espec�fico de conex�o. . . . . . : 
+   Descri��o . . . . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Endere�o F�sico . . . . . . . . . . . . . . : 
+   DHCP Habilitado . . . . . . . . . . . . . . : N�o
+   Configura��o Autom�tica Habilitada. . . . . : Sim
+""
+Adaptador de Rede sem Fio Wi-Fi:
+""
+   Sufixo DNS espec�fico de conex�o. . . . . . : fatec.campinas.br
+   Descri��o . . . . . . . . . . . . . . . . . : Intel(R) Wi-Fi 6 AX201 160MHz
+   Endere�o F�sico . . . . . . . . . . . . . . : 
+   DHCP Habilitado . . . . . . . . . . . . . . : Sim
+   Configura��o Autom�tica Habilitada. . . . . : Sim
+   Endere�o IPv4. . . . . . . .  . . . . . . . : (Preferencial) 
+   M�scara de Sub-rede . . . . . . . . . . . . : 
+"   Concess�o Obtida. . . . . . . . . . . . . . : quarta-feira, 24 de abril de 2024 19:22:53"
+"   Concess�o Expira. . . . . . . . . . . . . . : quarta-feira, 24 de abril de 2024 22:49:13"
+   Gateway Padr�o. . . . . . . . . . . . . . . : 
+   Servidor DHCP . . . . . . . . . . . . . . . : 
+   Servidores DNS. . . . . . . . . . . . . . . : 8.8.8.8
+                                                 8.8.4.4
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado
+""
+Adaptador Ethernet vEthernet (Default Switch (Ethernet)):
+""
+   Sufixo DNS espec�fico de conex�o. . . . . . : 
+   Descri��o . . . . . . . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter
+   Endere�o F�sico . . . . . . . . . . . . . . : 
+   DHCP Habilitado . . . . . . . . . . . . . . : N�o
+   Configura��o Autom�tica Habilitada. . . . . : Sim
+   Endere�o IPv6 de link local . . . . . . . . : (Preferencial) 
+   Endere�o IPv4. . . . . . . .  . . . . . . . : (Preferencial) 
+   M�scara de Sub-rede . . . . . . . . . . . . : 255.255.240.0
+   Gateway Padr�o. . . . . . . . . . . . . . . : 
+   IAID de DHCPv6. . . . . . . . . . . . . . . : 
+   DUID de Cliente DHCPv6. . . . . . . . . . . : 
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado
+""
+Adaptador Ethernet vEthernet (Default Switch (Ethernet 3)):
+""
+   Sufixo DNS espec�fico de conex�o. . . . . . : 
+   Descri��o . . . . . . . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter #3
+   Endere�o F�sico . . . . . . . . . . . . . . : 
+   DHCP Habilitado . . . . . . . . . . . . . . : N�o
+   Configura��o Autom�tica Habilitada. . . . . : Sim
+   Endere�o IPv6 de link local . . . . . . . . : (Preferencial) 
+   Endere�o IPv4. . . . . . . .  . . . . . . . : (Preferencial) 
+   M�scara de Sub-rede . . . . . . . . . . . . : 255.255.240.0
+   Gateway Padr�o. . . . . . . . . . . . . . . : 
+   IAID de DHCPv6. . . . . . . . . . . . . . . : 
+   DUID de Cliente DHCPv6. . . . . . . . . . . : 
+   NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado
