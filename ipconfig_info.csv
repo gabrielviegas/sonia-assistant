@@ -1,13 +1,13 @@
 ""
 Configura��o de IP do Windows
 ""
-   Nome do host. . . . . . . . . . . . . . . . : LOTHBROK
-   Sufixo DNS prim�rio . . . . . . . . . . . . : icarotech.com
+   Nome do host. . . . . . . . . . . . . . . . : 
+   Sufixo DNS prim�rio . . . . . . . . . . . . : 
    Tipo de n�. . . . . . . . . . . . . . . . . : h�brido
    Roteamento de IP ativado. . . . . . . . . . : n�o
    Proxy WINS ativado. . . . . . . . . . . . . : n�o
    Lista de pesquisa de sufixo DNS . . . . . . : 
-                                                 fatec.campinas.br
+                                                 
 ""
 Adaptador Ethernet Ethernet 2:
 ""
@@ -53,7 +53,7 @@ Adaptador Ethernet vEthernet (Default Switch (Wi-Fi)):
    Endere�o IPv4. . . . . . . .  . . . . . . . : Preferencial) 
    M�scara de Sub-rede . . . . . . . . . . . . : 255.255.240.0
    Gateway Padr�o. . . . . . . . . . . . . . . : 
-   IAID de DHCPv6. . . . . . . . . . . . . . . : 654316893
+   IAID de DHCPv6. . . . . . . . . . . . . . . : 
    DUID de Cliente DHCPv6. . . . . . . . . . . : 
    NetBIOS em Tcpip. . . . . . . . . . . . . . : Habilitado
 ""
